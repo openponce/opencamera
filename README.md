@@ -38,7 +38,7 @@ In IOS it is necessary to edit the following files.
 
 **ios/PodFile**
 
-Change the line by uncommenting and changing the minimum version in the PodFile file.
+Change the line by uncommenting and changing the minimum version in the ios/PodFile.
 
 ```
 platform :ios, '10.0'
