@@ -14,9 +14,7 @@ Installing the plugin in your application is very simple, add in your file **pub
 
 ```
 dependencies:
-  open_camera:
-    git:
-      url: 'https://github.com/openponce/opencamera.git'
+  open_camera: ^0.0.1
   flutter:
     sdk: flutter
 ```

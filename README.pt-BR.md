@@ -10,9 +10,7 @@
 A instalação do plugin na sua aplicação é muito simples, adicione no seu arquivo **pubspec.yaml** a referência do plugin **OpenCamera**.
 ```
 dependencies:
-  open_camera:
-    git:
-      url: 'https://github.com/openponce/opencamera.git'
+  open_camera: ^0.0.1
   flutter:
     sdk: flutter
 ```
@@ -29,19 +27,15 @@ No arquivo **AndroidManifest.xml** adicione as seguintes permissões.
 ###  IOS
 No IOS é necessário editar os seguintes arquivos.
 
-**Arquivo PodFile**
+**ios/PodFile**
 Altere a linha removendo o comentário e trocando a versão miníma no arquivo PodFile.
-
-`O arquivo está na pasta ios/PodFile do seu projeto. `
 
 ```
 platform :ios, '10.0'
 ```
 
-**Arquivo Info.plist**
+**ios/Runner/Info.plist**
 No arquivo **Info.plist** adicione as seguintes pemissões.
-
-`O arquivo está em ios/Runner/Info.plist no seu projeto.`
 
 ```
 <key>NSCameraUsageDescription</key>
@@ -61,8 +55,6 @@ No arquivo **Info.plist** adicione as seguintes pemissões.
 # Como usar
 
 ### Configurações
-
-Configure de acordo com a necessidade ;)
 
 ```
 var settings = CameraSettings(
