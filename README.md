@@ -2,7 +2,7 @@
 Open Camera is a flutter plugin, very light, nice and intuitive, which adds to your application the ability to take photos and record videos.
 
 ### Get started
-It is very easy to use the plugin **Open Camera** in your project, it was thought to be like this;)
+It is very easy to use the plugin **Open Camera** in your project, it was thought to be like this ;)
 
 `For Android systems the minimum version of SDK is 24 and IOS minimum version is 10.0.`
 
