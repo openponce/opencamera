@@ -1,13 +1,13 @@
 # Open Camera
- Open Camera é um plugin flutter, muito leve, agradável e intuitivo, que adiciona ao seu aplicativo a capacidade de tirar fotos e gravar vídeos.
+Open Camera is a flutter plugin, very light, nice and intuitive, which adds to your application the ability to take photos and record videos.
 
-### Comece a usar
-É muito fácil utilizar o plugin o **Open Camera** em seu projeto, ele foi pensado para ser assim ;)
+### Get started
+It is very easy to use the plugin **Open Camera** in your project, it was thought to be like this;)
 
-`Para sistemas Android a versão mínima do SDK é 24 e IOS versão mínima é 10.0.`
+`For Android systems the minimum version of SDK is 24 and IOS minimum version is 10.0.`
 
-# Instalação
-A instalação do plugin na sua aplicação é muito simples, adicione no seu arquivo **pubspec.yaml** a referência do plugin **OpenCamera**.
+# Installation
+Installing the plugin in your application is very simple, add in your file **pubspec.yaml** the plugin reference **OpenCamera**.
 ```
 dependencies:
   open_camera:
@@ -18,7 +18,7 @@ dependencies:
 ```
 
 ### Android
-No arquivo **AndroidManifest.xml** adicione as seguintes permissões.
+In the **AndroidManifest.xml** file add the following permissions.
 ```
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.CAMERA" android:required="true" />
@@ -27,21 +27,21 @@ No arquivo **AndroidManifest.xml** adicione as seguintes permissões.
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:required="true" />
 ```
 ###  IOS
-No IOS é necessário editar os seguintes arquivos.
+In IOS it is necessary to edit the following files.
 
-**Arquivo PodFile**
-Altere a linha removendo o comentário e trocando a versão miníma no arquivo PodFile.
+**PodFile**
+Change the line by uncommenting and changing the minimum version in the PodFile file.
 
-`O arquivo está na pasta ios/PodFile do seu projeto. `
+`The file is in your project's ios/PodFile folder.`
 
 ```
 platform :ios, '10.0'
 ```
 
-**Arquivo Info.plist**
-No arquivo **Info.plist** adicione as seguintes pemissões.
+**Info.plist**
+In the **Info.plist** file add the following permissions.
 
-`O arquivo está em ios/Runner/Info.plist no seu projeto.`
+`The file is in ios/Runner/Info.plist in your project.`
 
 ```
 <key>NSCameraUsageDescription</key>
@@ -58,11 +58,9 @@ No arquivo **Info.plist** adicione as seguintes pemissões.
    <true/>
 </dict>
 ```
-# Como usar
+# How to use
 
-### Configurações
-
-Configure de acordo com a necessidade ;)
+### Settings
 
 ```
 var settings = CameraSettings(
@@ -73,14 +71,14 @@ var settings = CameraSettings(
 
 ```
 
-|Parâmetro| Tipo |Descrição|
+|Parameter|Type|Description|
 |--|--|--|
-|limitRecord| int |Tempo limite de gravação em segundos.|
-|useCompression|bool|Se o plugin deve comprimir a foto ou vídeo antes de retornar|
-|resolutionPreset|enum|Qualidade de resolução da câmera|
+|limitRecord| int |Recording time limit in seconds.|
+|useCompression|bool|Whether the plugin should compress the photo or video before returning|
+|resolutionPreset|enum|Camera resolution quality|
 
 
-### Tirando uma foto
+### Taking a picture
 ```
 File file = await openCamera(
   context,
@@ -92,7 +90,7 @@ File file = await openCamera(
 );
 
 ```
-### Gravando um vídeo
+### Recording a video
 ```
 File file = await openCamera(context,
                              CameraMode.Video,
@@ -104,6 +102,6 @@ File file = await openCamera(context,
                             );
 ```
 
-Autores.
+Authors.
 
 Diogo Luiz Ponce (dlponce@gmail.com) / Joelson Santos Cunha (contato@joecorp.com.br)
