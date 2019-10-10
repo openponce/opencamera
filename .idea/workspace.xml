@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87591ee8-81b7-4f19-89c8-c94c77e3da47" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/.idea/" />
+    <ignored path="$PROJECT_DIR$/.pub/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/example/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>OpenCameraPlugin</find>
+      <find>FlutterFFmpegPlugin</find>
+      <find>register</find>
+      <find>8.0</find>
+      <find>9.3</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/open_camera_test.dart" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/example/test/widget_test.dart" />
+        <option value="$PROJECT_DIR$/android/gradle.properties" />
+        <option value="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/ios/Classes/OpenCameraPlugin.h" />
+        <option value="$PROJECT_DIR$/example/ios/Podfile" />
+        <option value="$PROJECT_DIR$/example/ios/Runner/Info.plist" />
+        <option value="$PROJECT_DIR$/ios/open_camera.podspec" />
+        <option value="$PROJECT_DIR$/ios/Classes/OpenCameraPlugin.m" />
+        <option value="$PROJECT_DIR$/lib/src/preview_photo.dart" />
+        <option value="$PROJECT_DIR$/example/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/src/open_camera_widget.dart" />
+        <option value="$PROJECT_DIR$/lib/src/preview_video.dart" />
+        <option value="$PROJECT_DIR$/README.pt-BR.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/LICENSE" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="open_camera" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open_camera" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="C:\Projetos\Apps\open_camera\ios\Classes" />
+      <recent name="C:\Projetos\Apps\open_camera\example\lib\ffmpeg" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projetos\Apps\open_camera\lib\src\ffmpeg" />
+      <recent name="C:\Projetos\Apps\open_camera\lib\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87591ee8-81b7-4f19-89c8-c94c77e3da47" name="Default Changelist" comment="" />
+      <created>1570646355736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570646355736</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12992546" />
+      <window_info id="Captures" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Build Variants" order="5" side_tool="true" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="0" />
+      <window_info anchor="bottom" id="Run" order="1" visible="true" weight="0.3284974" />
+      <window_info anchor="bottom" id="Dart Analysis" order="2" weight="0.3290461" />
+      <window_info anchor="bottom" id="TODO" order="3" weight="0.32953367" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.3290461" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3284974" />
+      <window_info anchor="bottom" id="Multi-OS Engine" order="12" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Flutter Outline" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12992546" />
+      <window_info id="Captures" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Build Variants" order="5" side_tool="true" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="0" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.3284974" />
+      <window_info anchor="bottom" id="Dart Analysis" order="2" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="TODO" order="3" visible="true" weight="0.32953367" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.3290461" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3284974" />
+      <window_info anchor="bottom" id="Multi-OS Engine" order="12" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Flutter Outline" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/open_camera_test.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/test/widget_test.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/SwiftOpenCameraPlugin.swift" />
+    <entry file="file://$PROJECT_DIR$/ios/Classes/OpenCameraPlugin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ios/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ios/Runner/Info.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ios/Flutter/Debug.xcconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ios/Flutter/flutter_export_environment.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/ios/.symlinks/flutter/ios/Flutter.framework/Info.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/Classes/OpenCameraPlugin.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1557">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/open_camera.podspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/preview_photo.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding>
+            <element signature="e#150#296#0" />
+            <element signature="e#466#512#0" />
+            <element signature="e#994#1009#0" />
+            <element signature="e#1101#2707#0" />
+            <element signature="e#1173#1911#0" />
+            <element signature="e#1213#1886#0" />
+            <element signature="e#1270#1275#0" />
+            <element signature="e#1322#1859#0" />
+            <element signature="e#1460#1484#0" />
+            <element signature="e#1559#1830#0" />
+            <element signature="e#1620#1625#0" />
+            <element signature="e#1668#1799#0" />
+            <element signature="e#1943#2664#0" />
+            <element signature="e#1983#2639#0" />
+            <element signature="e#2040#2045#0" />
+            <element signature="e#2092#2612#0" />
+            <element signature="e#2228#2237#0" />
+            <element signature="e#2312#2583#0" />
+            <element signature="e#2373#2378#0" />
+            <element signature="e#2421#2552#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="71" column="50" selection-start-line="71" selection-start-column="50" selection-end-line="71" selection-end-column="50" />
+          <folding>
+            <element signature="e#282#433#0" />
+            <element signature="e#469#528#0" />
+            <element signature="e#3494#3621#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/open_camera_widget.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="678" column="4" selection-start-line="678" selection-start-column="4" selection-end-line="678" selection-end-column="4" />
+          <folding>
+            <element signature="e#573#605#0" />
+            <element signature="e#1159#2946#0" />
+            <element signature="e#2557#2815#0" />
+            <element signature="e#2606#2806#0" />
+            <element signature="e#2668#2782#0" />
+            <element signature="e#2866#2880#0" />
+            <element signature="e#2988#3380#0" />
+            <element signature="e#3959#4125#0" />
+            <element signature="e#4037#4043#0" />
+            <element signature="e#4153#4469#0" />
+            <element signature="e#4238#4341#0" />
+            <element signature="e#4547#4708#0" />
+            <element signature="e#4744#4847#0" />
+            <element signature="e#4815#4821#0" />
+            <element signature="e#6599#7630#0" />
+            <element signature="e#7091#7103#0" />
+            <element signature="e#7634#7660#0" />
+            <element signature="e#7750#8749#0" />
+            <element signature="e#8801#10015#0" />
+            <element signature="e#8917#8926#0" />
+            <element signature="e#9086#9239#0" />
+            <element signature="e#9274#9963#0" />
+            <element signature="e#9415#9529#0" />
+            <element signature="e#9596#9685#0" />
+            <element signature="e#9628#9684#0" />
+            <element signature="e#9795#9909#0" />
+            <element signature="e#10069#10616#0" />
+            <element signature="e#10108#10117#0" />
+            <element signature="e#10145#10611#0" />
+            <element signature="e#10184#10604#0" />
+            <element signature="e#10230#10595#0" />
+            <element signature="e#10320#10368#0" />
+            <element signature="e#10390#10584#0" />
+            <element signature="e#10689#10828#0" />
+            <element signature="e#10883#11366#0" />
+            <element signature="e#10904#11361#0" />
+            <element signature="e#10927#11354#0" />
+            <element signature="e#11007#11345#0" />
+            <element signature="e#11106#11240#0" />
+            <element signature="e#11420#11862#0" />
+            <element signature="e#11441#11857#0" />
+            <element signature="e#11464#11850#0" />
+            <element signature="e#11544#11841#0" />
+            <element signature="e#11642#11737#0" />
+            <element signature="e#11910#12169#0" />
+            <element signature="e#11981#12164#0" />
+            <element signature="e#12006#12157#0" />
+            <element signature="e#12060#12148#0" />
+            <element signature="e#12224#13255#0" />
+            <element signature="e#12252#13250#0" />
+            <element signature="e#12275#13243#0" />
+            <element signature="e#12382#13208#0" />
+            <element signature="e#12458#12584#0" />
+            <element signature="e#13285#13736#0" />
+            <element signature="e#13307#13731#0" />
+            <element signature="e#13340#13378#0" />
+            <element signature="e#13399#13724#0" />
+            <element signature="e#13422#13715#0" />
+            <element signature="e#13593#13691#0" />
+            <element signature="e#13655#13676#0" />
+            <element signature="e#13766#13831#0" />
+            <element signature="e#13786#13826#0" />
+            <element signature="e#13881#14889#0" />
+            <element signature="e#13936#14821#0" />
+            <element signature="e#13968#14806#0" />
+            <element signature="e#14011#14071#0" />
+            <element signature="e#14112#14115#0" />
+            <element signature="e#14146#14789#0" />
+            <element signature="e#14181#14770#0" />
+            <element signature="e#14245#14749#0" />
+            <element signature="e#14317#14442#0" />
+            <element signature="e#14472#14701#0" />
+            <element signature="e#14554#14674#0" />
+            <element signature="e#14893#14919#0" />
+            <element signature="e#15018#15196#0" />
+            <element signature="e#15254#15559#0" />
+            <element signature="e#15363#15505#0" />
+            <element signature="e#15403#15498#0" />
+            <element signature="e#15463#15478#0" />
+            <element signature="e#15531#15554#0" />
+            <element signature="e#15618#16725#0" />
+            <element signature="e#15645#16720#0" />
+            <element signature="e#15654#15673#0" />
+            <element signature="e#15941#16712#0" />
+            <element signature="e#15950#15962#0" />
+            <element signature="e#16781#17441#0" />
+            <element signature="e#17120#17283#0" />
+            <element signature="e#17160#17276#0" />
+            <element signature="e#17220#17256#0" />
+            <element signature="e#17334#17349#0" />
+            <element signature="e#17419#17436#0" />
+            <element signature="e#17445#17471#0" />
+            <element signature="e#17561#17741#0" />
+            <element signature="e#17704#17736#0" />
+            <element signature="e#17800#18290#0" />
+            <element signature="e#17900#17909#0" />
+            <element signature="e#18420#18723#0" />
+            <element signature="e#18471#18633#0" />
+            <element signature="e#18528#18624#0" />
+            <element signature="e#18674#18712#0" />
+            <element signature="e#18822#20169#0" />
+            <element signature="e#19051#19060#0" />
+            <element signature="e#19603#19618#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/ffmpeg/log_level.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-607" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/preview_video.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="375" column="25" selection-start-line="375" selection-start-column="25" selection-end-line="375" selection-end-column="25" />
+          <folding>
+            <element signature="e#352#774#0" />
+            <element signature="e#818#1081#0" />
+            <element signature="e#1468#1530#0" />
+            <element signature="e#1566#1619#0" />
+            <element signature="e#1662#1881#0" />
+            <element signature="e#1708#1734#0" />
+            <element signature="e#1713#1733#0" />
+            <element signature="e#1937#2295#0" />
+            <element signature="e#1973#2251#0" />
+            <element signature="e#2072#2242#0" />
+            <element signature="e#2141#2231#0" />
+            <element signature="e#2329#2483#0" />
+            <element signature="e#2348#2478#0" />
+            <element signature="e#2540#2735#0" />
+            <element signature="e#2561#2730#0" />
+            <element signature="e#2582#2723#0" />
+            <element signature="e#2779#3182#0" />
+            <element signature="e#2803#3177#0" />
+            <element signature="e#2883#3170#0" />
+            <element signature="e#2960#3161#0" />
+            <element signature="e#3015#3028#0" />
+            <element signature="e#3241#3349#0" />
+            <element signature="e#3263#3344#0" />
+            <element signature="e#3284#3337#0" />
+            <element signature="e#3379#3444#0" />
+            <element signature="e#3399#3439#0" />
+            <element signature="e#3477#4158#0" />
+            <element signature="e#3538#4131#0" />
+            <element signature="e#3565#3923#0" />
+            <element signature="e#3595#3908#0" />
+            <element signature="e#3660#3891#0" />
+            <element signature="e#3692#3719#0" />
+            <element signature="e#4062#4118#0" />
+            <element signature="e#4323#4328#0" />
+            <element signature="e#4604#4620#0" />
+            <element signature="e#4816#4841#0" />
+            <element signature="e#4888#5075#0" />
+            <element signature="e#4935#4940#0" />
+            <element signature="e#4969#5058#0" />
+            <element signature="e#5132#5615#0" />
+            <element signature="e#5158#5604#0" />
+            <element signature="e#5201#5206#0" />
+            <element signature="e#5239#5591#0" />
+            <element signature="e#5333#5342#0" />
+            <element signature="e#5389#5576#0" />
+            <element signature="e#5436#5441#0" />
+            <element signature="e#5470#5559#0" />
+            <element signature="e#5680#6301#0" />
+            <element signature="e#5698#6296#0" />
+            <element signature="e#5761#6289#0" />
+            <element signature="e#5853#6254#0" />
+            <element signature="e#5928#6237#0" />
+            <element signature="e#6046#6218#0" />
+            <element signature="e#6354#6569#0" />
+            <element signature="e#6385#6525#0" />
+            <element signature="e#6616#7368#0" />
+            <element signature="e#6648#7324#0" />
+            <element signature="e#6681#6685#0" />
+            <element signature="e#6708#7315#0" />
+            <element signature="e#6736#7304#0" />
+            <element signature="e#6775#6926#0" />
+            <element signature="e#6858#6911#0" />
+            <element signature="e#6891#6894#0" />
+            <element signature="e#6963#6966#0" />
+            <element signature="e#6995#7291#0" />
+            <element signature="e#7049#7276#0" />
+            <element signature="e#7078#7259#0" />
+            <element signature="e#7144#7240#0" />
+            <element signature="e#7398#7778#0" />
+            <element signature="e#7420#7773#0" />
+            <element signature="e#7441#7766#0" />
+            <element signature="e#7464#7757#0" />
+            <element signature="e#7635#7733#0" />
+            <element signature="e#7697#7718#0" />
+            <element signature="e#7805#8543#0" />
+            <element signature="e#7935#8491#0" />
+            <element signature="e#7953#7972#0" />
+            <element signature="e#9285#9300#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/ffmpeg/flutter_ffmpeg.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-788">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#757#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.pt-BR.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="108" column="84" selection-start-line="108" selection-start-column="84" selection-end-line="108" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/open_camera.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
