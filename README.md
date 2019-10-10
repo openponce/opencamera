@@ -1,13 +1,17 @@
 # Open Camera
+
 Open Camera is a flutter plugin, very light, nice and intuitive, which adds to your application the ability to take photos and record videos.
 
 ### Get started
+
 It is very easy to use the plugin **Open Camera** in your project, it was thought to be like this ;)
 
 `For Android systems the minimum version of SDK is 24 and IOS minimum version is 10.0.`
 
 # Installation
+
 Installing the plugin in your application is very simple, add in your file **pubspec.yaml** the plugin reference **OpenCamera**.
+
 ```
 dependencies:
   open_camera:
@@ -18,7 +22,9 @@ dependencies:
 ```
 
 ### Android
+
 In the **AndroidManifest.xml** file add the following permissions.
+
 ```
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.CAMERA" android:required="true" />
@@ -27,21 +33,20 @@ In the **AndroidManifest.xml** file add the following permissions.
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:required="true" />
 ```
 ###  IOS
+
 In IOS it is necessary to edit the following files.
 
-**PodFile**
-Change the line by uncommenting and changing the minimum version in the PodFile file.
+**ios/PodFile**
 
-`The file is in your project's ios/PodFile folder.`
+Change the line by uncommenting and changing the minimum version in the PodFile file.
 
 ```
 platform :ios, '10.0'
 ```
 
-**Info.plist**
-In the **Info.plist** file add the following permissions.
+**ios/Runner/Info.plist**
 
-`The file is in ios/Runner/Info.plist in your project.`
+In the **Info.plist** file add the following permissions.
 
 ```
 <key>NSCameraUsageDescription</key>
