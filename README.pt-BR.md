@@ -10,7 +10,7 @@
 A instalação do plugin na sua aplicação é muito simples, adicione no seu arquivo **pubspec.yaml** a referência do plugin **OpenCamera**.
 ```
 dependencies:
-  open_camera: ^0.0.1
+  open_camera: ...
   flutter:
     sdk: flutter
 ```
