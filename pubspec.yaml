@@ -1,11 +1,12 @@
 name: open_camera
 description: Open Camera is a flutter project that provides a complete widget for shooting and recording videos.
-version: 0.0.3
+version: 0.0.4
 author: Diogo Luiz Ponce <dlponce@gmail.com>
 homepage: https://github.com/openponce/opencamera
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.0 <3.0.0"
+  flutter: ">=1.5.9-pre.94 <2.0.0"
 
 dependencies:
   camera: ^0.5.4+2
