@@ -547,7 +547,7 @@ class _OpenCameraState extends State<OpenCamera> with WidgetsBindingObserver {
       context,
       MaterialPageRoute(
         builder: (context) {
-          return PreviewPhoto(_fileLocation);
+          return PreviewPhoto(_fileLocation, this.cameraSettings);
         },
       ),
     );
@@ -637,19 +637,6 @@ class _OpenCameraState extends State<OpenCamera> with WidgetsBindingObserver {
   //------------------------
   // FUNCTIONS
   //------------------------
-
-  //
-  Future<Widget> _invalidOrientation() async {
-    //
-    if (_initRecord) {
-      _initRecord = false;
-      await controller.stopVideoRecording();
-    }
-    //
-    return Container(
-      color: Colors.red,
-    );
-  }
 
   //
   int _turnsDeviceOrientation(BuildContext context) {

@@ -3,7 +3,6 @@ import 'dart:core';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'package:open_camera/src/ffmpeg/flutter_ffmpeg.dart';
 import 'package:video_player/video_player.dart';
 
@@ -40,7 +39,7 @@ class VideoPreview extends StatefulWidget {
       _VideoPreviewState(this.videoLocation, this.cameraSettings);
 }
 
-class _VideoPreviewState extends State<VideoPreview> {
+class _VideoPreviewState extends State<VideoPreview> with ChangeNotifier {
   //
   final String videoLocation;
   final CameraSettings cameraSettings;
@@ -192,14 +191,16 @@ class _VideoPreviewState extends State<VideoPreview> {
               color: Colors.green,
               onPressed: () async {
                 //
+                if (_controller.value.isPlaying) {
+                  await _controller.pause();
+                }
+                //
                 String _videoLocation = this.videoLocation;
-                //TODO: REMOVER - Testes!!
-                await ImageGallerySaver.saveFile(_videoLocation);
                 //
                 if (this.cameraSettings.useCompression) {
                   _videoLocation = await _performVideoCompression();
                 }
-
+                //
                 Navigator.pop(context, _videoLocation);
               },
               child: Padding(
@@ -385,9 +386,6 @@ class _VideoPreviewState extends State<VideoPreview> {
     //
     await _compressVideo.executeWithArguments(arguments);
     File(this.videoLocation).delete(recursive: true);
-    //TODO: REMOVER - Testes!!
-    await ImageGallerySaver.saveFile(videoLocation);
-    //
     _controller.notifyListeners();
     //
     return videoLocation;

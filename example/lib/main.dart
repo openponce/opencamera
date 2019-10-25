@@ -53,7 +53,8 @@ class _HomeState extends State<Home> {
                             var file = await openCamera(
                               ctx,
                               CameraMode.Photo,
-                              cameraSettings: CameraSettings(),
+                              cameraSettings:
+                                  CameraSettings(useCompression: true),
                             );
                             setState(() {
                               fileName = file?.path ?? "";
