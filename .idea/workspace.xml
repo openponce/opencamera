@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87591ee8-81b7-4f19-89c8-c94c77e3da47" name="Default Changelist" comment="Ajustes na compatibilidade com as dependencias...">
+    <list default="true" id="87591ee8-81b7-4f19-89c8-c94c77e3da47" name="Default Changelist" comment="Issue Resolution #1 #2 #3&#10;&#10;https://github.com/openponce/opencamera/issues/1&#10;https://github.com/openponce/opencamera/issues/2&#10;https://github.com/openponce/opencamera/issues/3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/preview_video.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/preview_video.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -35,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
-              <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
               <folding>
                 <element signature="e#282#433#0" />
                 <element signature="e#469#528#0" />
@@ -52,7 +49,6 @@
               <folding>
                 <element signature="e#289#711#0" />
                 <element signature="e#755#1018#0" />
-                <element signature="e#1073#9245#0" />
                 <element signature="e#1405#1467#0" />
                 <element signature="e#1503#1556#0" />
                 <element signature="e#1599#1818#0" />
@@ -129,21 +125,17 @@
                 <element signature="e#7443#7736#0" />
                 <element signature="e#7614#7712#0" />
                 <element signature="e#7676#7697#0" />
-                <element signature="e#7784#8524#0" />
-                <element signature="e#7914#8472#0" />
                 <element signature="e#7932#7951#0" />
-                <element signature="e#8575#9243#0" />
-                <element signature="e#9124#9144#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+        <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="198">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -187,11 +179,11 @@
         <option value="$PROJECT_DIR$/lib/src/preview_photo.dart" />
         <option value="$PROJECT_DIR$/README.pt-BR.md" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/CHANGELOG.md" />
         <option value="$PROJECT_DIR$/example/android/build.gradle" />
         <option value="$PROJECT_DIR$/android/build.gradle" />
         <option value="$PROJECT_DIR$/lib/src/preview_video.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/CHANGELOG.md" />
       </list>
     </option>
   </component>
@@ -296,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572030625164</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Issue Resolution #1 #2 #3&#10;&#10;https://github.com/openponce/opencamera/issues/1&#10;https://github.com/openponce/opencamera/issues/2&#10;https://github.com/openponce/opencamera/issues/3">
+      <created>1573130704560</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573130704560</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -312,7 +311,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13539445" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13646056" />
       <window_info id="Captures" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -322,7 +321,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="0" />
-      <window_info anchor="bottom" id="Run" order="1" visible="true" weight="0.3279743" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.3279743" />
       <window_info anchor="bottom" id="Dart Analysis" order="2" weight="0.3290461" />
       <window_info anchor="bottom" id="TODO" order="3" weight="0.3290461" />
       <window_info anchor="bottom" id="Android Profiler" order="4" show_stripe_button="false" />
@@ -332,7 +331,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.3279743" />
       <window_info anchor="bottom" id="Flutter Performance" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.3279743" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" visible="true" weight="0.3279743" />
       <window_info anchor="bottom" id="Multi-OS Engine" order="12" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -376,7 +375,8 @@
     <MESSAGE value="Ajustes na documentação do projeto." />
     <MESSAGE value="Criado compressão de imagem." />
     <MESSAGE value="Ajustes na compatibilidade com as dependencias..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustes na compatibilidade com as dependencias..." />
+    <MESSAGE value="Issue Resolution #1 #2 #3&#10;&#10;https://github.com/openponce/opencamera/issues/1&#10;https://github.com/openponce/opencamera/issues/2&#10;https://github.com/openponce/opencamera/issues/3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Issue Resolution #1 #2 #3&#10;&#10;https://github.com/openponce/opencamera/issues/1&#10;https://github.com/openponce/opencamera/issues/2&#10;https://github.com/openponce/opencamera/issues/3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -544,13 +544,6 @@
     <entry file="file://$PROJECT_DIR$/example/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/preview_photo.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1210">
@@ -683,6 +676,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -693,7 +693,7 @@
     <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding>
             <element signature="e#282#433#0" />
             <element signature="e#469#528#0" />
@@ -708,7 +708,6 @@
           <folding>
             <element signature="e#289#711#0" />
             <element signature="e#755#1018#0" />
-            <element signature="e#1073#9245#0" />
             <element signature="e#1405#1467#0" />
             <element signature="e#1503#1556#0" />
             <element signature="e#1599#1818#0" />
@@ -785,19 +784,15 @@
             <element signature="e#7443#7736#0" />
             <element signature="e#7614#7712#0" />
             <element signature="e#7676#7697#0" />
-            <element signature="e#7784#8524#0" />
-            <element signature="e#7914#8472#0" />
             <element signature="e#7932#7951#0" />
-            <element signature="e#8575#9243#0" />
-            <element signature="e#9124#9144#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="198">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
