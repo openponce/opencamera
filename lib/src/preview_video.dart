@@ -39,7 +39,7 @@ class VideoPreview extends StatefulWidget {
       _VideoPreviewState(this.videoLocation, this.cameraSettings);
 }
 
-class _VideoPreviewState extends State<VideoPreview> with ChangeNotifier {
+class _VideoPreviewState extends State<VideoPreview> {
   //
   final String videoLocation;
   final CameraSettings cameraSettings;
@@ -350,7 +350,6 @@ class _VideoPreviewState extends State<VideoPreview> with ChangeNotifier {
             _timeRecord =
                 formatRecordingTime(_controller.value.position.inSeconds + 1);
           }
-          _controller.notifyListeners();
         },
       );
       //
@@ -386,8 +385,6 @@ class _VideoPreviewState extends State<VideoPreview> with ChangeNotifier {
     //
     await _compressVideo.executeWithArguments(arguments);
     File(this.videoLocation).delete(recursive: true);
-    _controller.notifyListeners();
-    //
     return videoLocation;
   }
 }
